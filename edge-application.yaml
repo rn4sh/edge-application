@@ -60,7 +60,6 @@ spec:
   to:
     kind: "Service"
     name: simple-nginx
-    weight: null
   tls:
     termination: edge
     insecureEdgeTerminationPolicy: Redirect
