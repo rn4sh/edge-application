@@ -16,7 +16,7 @@ spec:
         app: simple-nginx
     spec:
       containers:
-      - image: registry.access.redhat.com/ubi8/nginx-120
+      - image: registry.access.redhat.com/ubi8/nginx-120:1-60
         name: nginx
         command:
           - /bin/sh
